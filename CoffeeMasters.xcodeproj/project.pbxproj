@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A80D8D2B41DF6700847865 /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D8C2B41DF6700847865 /* OffersPage.swift */; };
+		02A80D912B41E71D00847865 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D902B41E71D00847865 /* MenuPage.swift */; };
+		02A80D932B41E72C00847865 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D922B41E72C00847865 /* OrdersPage.swift */; };
+		02A80D952B41E73600847865 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D942B41E73600847865 /* InfoPage.swift */; };
+		02A80D972B41E94B00847865 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D962B41E94B00847865 /* Product.swift */; };
+		02A80D992B41ED5300847865 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A80D982B41ED5300847865 /* DetailsPage.swift */; };
 		02E45AA02B41CF3900D0AAF7 /* CoffeeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45A9F2B41CF3900D0AAF7 /* CoffeeMastersApp.swift */; };
 		02E45AA22B41CF3900D0AAF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45AA12B41CF3900D0AAF7 /* ContentView.swift */; };
 		02E45AA42B41CF3B00D0AAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E45AA32B41CF3B00D0AAF7 /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		02E45AB12B41CF3B00D0AAF7 /* CoffeeMastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45AB02B41CF3B00D0AAF7 /* CoffeeMastersTests.swift */; };
 		02E45ABB2B41CF3B00D0AAF7 /* CoffeeMastersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45ABA2B41CF3B00D0AAF7 /* CoffeeMastersUITests.swift */; };
 		02E45ABD2B41CF3B00D0AAF7 /* CoffeeMastersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45ABC2B41CF3B00D0AAF7 /* CoffeeMastersUITestsLaunchTests.swift */; };
+		02E45ACA2B41CFE800D0AAF7 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E45AC92B41CFE800D0AAF7 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A80D8C2B41DF6700847865 /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		02A80D902B41E71D00847865 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		02A80D922B41E72C00847865 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		02A80D942B41E73600847865 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		02A80D962B41E94B00847865 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		02A80D982B41ED5300847865 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		02E45A9C2B41CF3900D0AAF7 /* CoffeeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E45A9F2B41CF3900D0AAF7 /* CoffeeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersApp.swift; sourceTree = "<group>"; };
 		02E45AA12B41CF3900D0AAF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,7 @@
 		02E45AB62B41CF3B00D0AAF7 /* CoffeeMastersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMastersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E45ABA2B41CF3B00D0AAF7 /* CoffeeMastersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITests.swift; sourceTree = "<group>"; };
 		02E45ABC2B41CF3B00D0AAF7 /* CoffeeMastersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02E45AC92B41CFE800D0AAF7 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A80D8E2B41E64E00847865 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02E45AC92B41CFE800D0AAF7 /* Offer.swift */,
+				02A80D962B41E94B00847865 /* Product.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02A80D8F2B41E6C600847865 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				02A80D8C2B41DF6700847865 /* OffersPage.swift */,
+				02A80D902B41E71D00847865 /* MenuPage.swift */,
+				02A80D922B41E72C00847865 /* OrdersPage.swift */,
+				02A80D942B41E73600847865 /* InfoPage.swift */,
+				02A80D982B41ED5300847865 /* DetailsPage.swift */,
+			);
+			path = "Page Views";
+			sourceTree = "<group>";
+		};
 		02E45A932B41CF3900D0AAF7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +129,8 @@
 		02E45A9E2B41CF3900D0AAF7 /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
+				02A80D8F2B41E6C600847865 /* Page Views */,
+				02A80D8E2B41E64E00847865 /* Views */,
 				02E45A9F2B41CF3900D0AAF7 /* CoffeeMastersApp.swift */,
 				02E45AA12B41CF3900D0AAF7 /* ContentView.swift */,
 				02E45AA32B41CF3B00D0AAF7 /* Assets.xcassets */,
@@ -257,7 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E45ACA2B41CFE800D0AAF7 /* Offer.swift in Sources */,
+				02A80D972B41E94B00847865 /* Product.swift in Sources */,
+				02A80D8D2B41DF6700847865 /* OffersPage.swift in Sources */,
+				02A80D992B41ED5300847865 /* DetailsPage.swift in Sources */,
+				02A80D912B41E71D00847865 /* MenuPage.swift in Sources */,
+				02A80D952B41E73600847865 /* InfoPage.swift in Sources */,
 				02E45AA22B41CF3900D0AAF7 /* ContentView.swift in Sources */,
+				02A80D932B41E72C00847865 /* OrdersPage.swift in Sources */,
 				02E45AA02B41CF3900D0AAF7 /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
